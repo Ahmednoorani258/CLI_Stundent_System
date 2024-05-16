@@ -325,7 +325,7 @@ function generateIDCardWithLogo() {
     const card = `
 ${chalk.bold('Name:')} ${student?.name}             
 ${chalk.bold('ID:')} ${student?.id}      
-${chalk.bold('Courses:')} ${student?.courses[0]}     
+${chalk.bold('Courses:')} ${student?.courses}     
 ${chalk.bold('Role:')} Student 
     `
 
